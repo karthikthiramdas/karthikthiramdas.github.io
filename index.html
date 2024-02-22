@@ -37,7 +37,7 @@
             <a href="https://www.instagram.com/karthikthiramdas/" target="new_page"><img src="images/instagram-icon.png" alt="Instagram"></a>
         
         </div>
-        <a href="#contact" download class="btn btn2">Hire Me</a>
+        <a href="#contact" download class="btn btn2" onclick="scrollToContact()">Hire Me</a>
     </div>
     
 </div>
@@ -263,7 +263,12 @@
     </div>
 </div>
 
-
+<script>
+    function scrollToContact() {
+        var contactSection = document.getElementById('contact');
+        contactSection.scrollIntoView({ behavior: 'smooth' });
+    }
+</script>
 <script>
     
    document.getElementById('see-more-btn').addEventListener('click', function() {
