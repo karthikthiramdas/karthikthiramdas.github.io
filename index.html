@@ -1,0 +1,341 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Karthik Thiramdas</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script src="https://kit.fontawesome.com/c4254e24a8.js" crossorigin="anonymous"></script>
+</head>
+<body>
+<div id="header">
+    <div class="container">
+        <nav>
+            <img src="images/logo.png" class="logo">
+            <ul id="sidemenu">
+                <li><a href="#header">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <i class="fas fa-times" onclick="closemenu()"></i>
+            </ul>
+            <i class="fas fa-bars" onclick="openmenu()"></i>
+        </nav>
+        <div class="header-text">
+            <h1>Hi, I'm <span>Karthik</span></h1>
+        </div>
+        <div class="animated-text">
+           <h3>I'm a <span></span></h3>
+        </div>
+        <div class="social-icons">
+            <a href="https://www.linkedin.com/in/karthikthiramdas/" target="new_page"><img src="images/linkedin-icon.png" alt="Linkedin"></a>
+            <a href="https://github.com/karthikthiramdas" target="new_page"><img src="images/github-icon.png" alt="Github"></a>
+            <a href="https://twitter.com/iamkarthik223" target="new_page"><img src="images/twitter-icon.png" alt="Twitter"></a>
+            <a href="https://www.instagram.com/karthikthiramdas/" target="new_page"><img src="images/instagram-icon.png" alt="Instagram"></a>
+        
+        </div>
+        <a href="#contact" download class="btn btn2">Hire Me</a>
+    </div>
+    
+</div>
+        
+          
+    </div>
+</div>
+<!-- -----------about---------- -->
+<div id="about">
+    <div class="container">
+        <div class="row">
+            <div class="about-col-1">
+                <img src="images/user.png">
+            </div>
+            <div class="about-col-2">
+                <h1 class="sub-title">About Me</h1>
+                <p>Third-year undergrad at Chandigarh University, skilled in Java, Python, C++, and C. Passionate about user experience design using Figma, Sketch, and Adobe XD. Eager to embrace opportunities, connect with diverse individuals, and make a positive impact through my work.</p>
+
+                <div class="tab-titles">
+                    <p class="tab-links active-link" onclick="opentab('experience')">Experience</p>
+                    <p class="tab-links" onclick="opentab('skills')">Skills</p>
+                    <p class="tab-links" onclick="opentab('education')">Education</p>
+                </div>
+                <div class="tab-contents active-tab" id="experience">
+                    <ul>
+                        <li><span>December 2023 - Present</span><br>UI/UX Designer and Web Developer Intern at Spring S Technologies.</li>
+                        <li><span>November 2023 - Present</span><br>UI/UX and Product Designer Intern at Totelligence Solutions.</li>
+                        
+                    </ul>
+                </div>
+                <div class="tab-contents" id="skills">
+                    <ul>
+                        <li><span>Programming Languages: </span>Java(Intermediate), Python(Intermediate), C++(Intermediate), C(Intermediate)</li>
+                        <li><span>Databases: </span>MySQL</li>
+                        <li><span>Front-End: </span>HTML(Basic), CSS(Basic)</li>
+                        <li><span>Tools: </span>Xcode, Google Colab, Jupyter Notebook, Eclipse, VS Code, PyCharm, Linux</li>
+                        <li><span>Operating Systems: </span>Mac, Windows, Linux</li>
+                        <li><span>Interactive: </span>Figma, Sketch</li>
+                        <li><span>Visual: </span>Illustrator, Photoshop, Canva</li>
+                        <li><span>Motion: </span>Premiere Pro, After Effects</li>
+
+
+                    </ul>
+                </div>
+                
+                <div class="tab-contents" id="education">
+                    <ul>
+                        <li><span>Aug 2021 - June 2025</span><br>BE in Computer Science Engineering with Specialization in AI and ML<br>Chandigarh University | Mohali, India - 7.83 CGPA</li>
+                        <li><span>May 2019 - April 2021</span><br>Higher Secondary<br>Aurora Junior College | Miryalaguda, India - 92.8%</li>
+                        <li><span>June 2018 - April 2019</span><br>Matriculation<br>SPR School of Excellence | Miryalaguda, India - 9.5 GPA</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- ---------services---------------- -->
+<div id="services">
+    <div class="container">
+        <h1 class="sub-title">My Services</h1>
+        <div class="services-list">
+            <div>
+                <i class="fas fa-code"></i>
+                <h2>Web Design</h2>
+                <p>Crafting captivating websites tailored to your needs, ensuring both beauty and functionality.</p>
+                <a href="https://www.figma.com/file/xMAGOeC4ms189LouaPH2Bm/Spring-S-Ayodhya?type=design&node-id=0%3A1&mode=design&t=4PfKUpeJwzHERMK8-1" target="new_page">Learn more</a>
+            </div>
+            <div>
+                <i class="fas fa-crop-alt"></i>
+                <h2>UI/UX Design</h2>
+                <p>Creating intuitive interfaces for seamless user experiences that captivate and engage.</p>
+                <a href="https://www.figma.com/file/gL0RH7ei7eIX7i44zUdHML/Saas-Project---Stock-Market?type=design&node-id=0%3A1&mode=design&t=vf0HUmTa6AaEYBsz-1" target="new_page">Learn more</a>
+            </div>
+            <div>
+                <i class="fab fa-app-store"></i>
+                <h2>App Design</h2>
+                <p>Designing user-friendly mobile apps for diverse platforms, prioritizing both aesthetics and functionality.</p>
+                <a href="https://www.figma.com/file/1kwLK2o4dJUF32P5ssr8XS/Design-Assignment---Dacoid-Digital?type=design&node-id=0%3A1&mode=design&t=JSTkpgUJJLpPy9Zd-1" target="new_page">Learn more</a>
+            </div>
+            
+        </div>
+    </div>
+</div>
+<!-- ----------portfolio------------ -->
+<div id="portfolio">
+    <div class="container">
+        <h1 class="sub-title">My Work</h1>
+        <div class="work-list">
+            <div class="work">
+                <img src="images/work-1.png">
+                <div class="layer">
+                    <h3>Fitness Tracking App</h3>
+                    <p>Empower your fitness journey with our intuitive tracking app.</p>
+                    <a href="https://www.figma.com/file/1kwLK2o4dJUF32P5ssr8XS/Fitness-Tracking-App---Dacoid-Digital?type=design&node-id=0%3A1&mode=design&t=JSTkpgUJJLpPy9Zd-1" target="new_page"><i class="fas fa-external-link-alt"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/work-2.png">
+                <div class="layer">
+                    <h3>Makerble Landing Page</h3>
+                    <p>Unlock your potential with Makerble's dynamic landing page.</p>
+                    <a href="https://www.figma.com/file/yFQRbMxQHkR5u8oI93dXz1/Makerble?type=design&node-id=0%3A1&mode=design&t=6wctGRbXDuz2Cvwg-1" target="new_page"><i class="fas fa-external-link-alt"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/work-3.png">
+                <div class="layer">
+                    <h3>Ayodhya Ram Mandir</h3>
+                    <p>Explore the essence of devotion on Ayodhya Ram Mandir's landing page.</p>
+                    <a href="https://www.figma.com/file/xMAGOeC4ms189LouaPH2Bm/Spring-S-Ayodhya?type=design&node-id=0%3A1&mode=design&t=4PfKUpeJwzHERMK8-1" target="new_page"><i class="fas fa-external-link-alt"></i></a>
+                </div>
+            </div>
+            <div class="additional-works" style="display: none;">
+            <div class="work">
+                <img src="images/work-4.png">
+                <div class="layer">
+                    <h3>Saas Project - Stock Market</h3>
+                    <p>Experience the power of data-driven investing with our SaaS stock market solution.</p>
+                    <a href="https://www.figma.com/file/gL0RH7ei7eIX7i44zUdHML/Saas-Project---Stock-Market?type=design&node-id=0%3A1&mode=design&t=vf0HUmTa6AaEYBsz-1" target="new_page"><i class="fas fa-external-link-alt"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/work-5.png">
+                <div class="layer">
+                    <h3>Nike E-Commerce Landing Page</h3>
+                    <p>Step into the world of athletic excellence on Nike's dynamic e-commerce landing page.</p>
+                    <a href="#"><i class="fas fa-external-link-alt"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/work-6.png">
+                <div class="layer">
+                    <h3>Ecole Globale Mobile Version</h3>
+                    <p>Discover seamless education on Ecole Globale's mobile platform.</p>
+                    <a href="https://www.figma.com/file/txdTfnYsZaPm0UD4JLMLRC/Design-Assignment---Eduminatti?type=design&node-id=0%3A1&mode=design&t=yupUjKgB6YObhD9h-1" target="new_page"><i class="fas fa-external-link-alt"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/work-7.png">
+                <div class="layer">
+                    <h3>E-Learning Landing Page</h3>
+                    <p>Embark on a journey of knowledge with our e-learning landing page.</p>
+                    <a href="https://www.figma.com/file/EEESDPxDSE7yNyg1wyLz9X/E-Learning-Landing-Page?type=design&node-id=0%3A1&mode=design&t=wvefBm9cnzI4zenL-1" target="new_page"><i class="fas fa-external-link-alt"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/work-8.png">
+                <div class="layer">
+                    <h3>Blackcoffer Mobile UI</h3>
+                    <p>Immerse yourself in sleek design with Blackcoffer's mobile UI.</p>
+                    <a href="https://www.figma.com/file/9DTlKfL5B23glLpxqDQOjB/Blackcoffer-Mobile-UI?type=design&node-id=0%3A1&mode=design&t=MiWZbNfQ5MGaoXlu-1" target="new_page"><i class="fas fa-external-link-alt"></i></a>
+                </div>
+                </div>
+                <div class="work">
+                    <img src="images/work-9.png">
+                    <div class="layer">
+                        <h3>Automated Payroll System</h3>
+                        <p>Automated Payroll System: Streamline Payroll Processes.</p>
+                        <a href="https://github.com/karthikthiramdas/frontechpayrollsoftware.github.io" target="new_page"><i class="fas fa-external-link-alt"></i></a>
+                    </div>
+                    </div>
+                    <div class="work">
+                        <img src="images/work-10.png">
+                        <div class="layer">
+                            <h3>SMAPP - Stock Market Analysis and Price Prediction using LSTM</h3>
+                            <p>SMAPP: LSTM-based tool for Stock Market Analysis and Price Prediction.</p>
+                            <a href="https://github.com/karthikthiramdas/Stock-market-Analysis-and-Prediction" target="new_page"><i class="fas fa-external-link-alt"></i></a>
+                        </div>
+                        </div>
+                        <div class="work">
+                            <img src="images/work-11.png">
+                            <div class="layer">
+                                <h3>Credit Card Fraud Detection</h3>
+                                <p>Credit Card Fraud Detection: Safeguarding transactions through intelligent algorithms.</p>
+                                <a href="https://drive.google.com/drive/folders/17vxs2ZxbY4-tJoPhB6vGuDRSKxH4UuyA?usp=sharing" target="new_page"><i class="fas fa-external-link-alt"></i></a>
+                            </div>
+                            </div>
+                            <div class="work">
+                                <img src="images/work-12.png">
+                                <div class="layer">
+                                    <h3>E-COMMERCE-FOR-ARTISANS</h3>
+                                    <p>E-COMMERCE-FOR-ARTISANS: Empowering artisans with online market access.</p>
+                                    <a href="https://github.com/karthikthiramdas/E-COMMERCE-FOR-ARTISANS" target="new_page"><i class="fas fa-external-link-alt"></i></a>
+                                </div>
+                                </div>
+            </div>
+        </div>
+        <a class="btn" id="see-more-btn">See more</a>
+    </div>
+</div>
+
+
+<!-- ----------contact------------- -->
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Me</h1>
+                <p><i class="fas fa-paper-plane"></i>thekarthikthiramdas@gmail.com</p>
+                <p><i class="fas fa-phone-square-alt"></i>+91 81438 61251</p>
+                <div class="social-icons">
+                    <a href="https://www.linkedin.com/in/karthikthiramdas/" target="new_page"><img src="images/linkedin-icon.png" alt="Linkedin"></a>
+                    <a href="https://github.com/karthikthiramdas" target="new_page"><img src="images/github-icon.png" alt="Github"></a>
+                    <a href="https://twitter.com/iamkarthik223" target="new_page"><img src="images/twitter-icon.png" alt="Twitter"></a>
+                    <a href="https://www.instagram.com/karthikthiramdas/" target="new_page"><img src="images/instagram-icon.png" alt="Instagram"></a>
+                
+                </div>
+                <a href="images/Karthik_Thiramdas_Resume.pdf" target="new_page" download class="btn btn2">Download CV</a>
+            </div>
+            <div class="contact-right">
+                <form name="submit-to-google-sheet">
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email" name="Email" placeholder="Your Email" required>
+                    <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                    <button type="submit" class="btn btn2">Submit</button>
+                </form>
+                <span id="msg"></span>
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <p>© Karthik Thiramdas. All rights reserved</a></p>
+    </div>
+</div>
+
+
+<script>
+    
+   document.getElementById('see-more-btn').addEventListener('click', function() {
+    // Toggle visibility of additional works container
+    var additionalWorks = document.querySelector('.additional-works');
+    additionalWorks.style.display = (additionalWorks.style.display === 'none') ? 'grid' : 'none';
+    
+    // Change the text of the button accordingly
+    this.textContent = (this.textContent === 'See more') ? 'See less' : 'See more';
+    
+    // Add or remove class to adjust layout
+    additionalWorks.classList.toggle('four-cards-per-row');
+    
+    // Adjust the size of images on toggle
+    var works = document.querySelectorAll('.work-list .work');
+    works.forEach(function(work, index) {
+        if (index < 3) {
+            work.querySelector('img').style.transform = (additionalWorks.classList.contains('four-cards-per-row')) ? 'scale(1.1)' : 'scale(1)';
+        }
+    });
+});
+
+</script>
+
+
+<script>
+
+    var tablinks = document.getElementsByClassName("tab-links");
+    var tabcontents = document.getElementsByClassName("tab-contents");
+
+    function opentab(tabname){
+        for(tablink of tablinks){
+            tablink.classList.remove("active-link");
+        }
+        for(tabcontent of tabcontents){
+            tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+    }
+
+</script>
+
+<script>
+
+    var sidemeu = document.getElementById("sidemenu");
+
+    function openmenu(){
+        sidemeu.style.right = "0";
+    }
+    function closemenu(){
+        sidemeu.style.right = "-200px";
+    }
+
+</script>
+<script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbx3WuE8361MVEX0-1zJBI6LSD2AB3JyyuPWQiM8LzmaGvl2LjSIi2fPckL0YiNh4U7FEA/exec' 
+    const form = document.forms['submit-to-google-sheet']
+    const msg = document.getElementById("msg")
+  
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => {
+            msg.innerHTML = "Message sent successfully"
+            setTimeout(function(){
+                msg.innerHTML = ""
+            },5000)
+            form.reset()
+        })
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script>
+</body>
+</html>
